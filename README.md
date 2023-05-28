@@ -6,14 +6,14 @@ Recommender systems suffer from biases that may misguide the system when learnin
 
 
 # Setup
-This repository consists of multiple folders.\
+This repository consists of multiple folders.
 
 Ciao data - consists of all data required for Ciao dataset\
 Epinions_data - consists of all data required for Epinions dataset\
-utils - consists of two python files
-•	node2vec.py --- for generating the Node2vec embeddings for user and item for D2Rec model.
-•	testgenerator.py --- that generates the pseudo-unbiased test sets.
-Baselines – consists of all the baselines as mentioned in the paper
+utils - consists of two python files\
+•	node2vec.py --- for generating the Node2vec embeddings for user and item for D2Rec model.\
+•	testgenerator.py --- that generates the pseudo-unbiased test sets.\
+Baselines – consists of all the baselines as mentioned in the paper\
 CIRS folder - consists of two files.\n
 	* cirs_baseline.py --- contains the code for the Causal Inference For Recommender System baseline.
 	*poisson_factorization.py --- contains the code for creating the user and item latent variables which will be used in cirs_baseline.py.
