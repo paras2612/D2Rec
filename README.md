@@ -14,16 +14,16 @@ utils - consists of two python files\
 •	node2vec.py --- for generating the Node2vec embeddings for user and item for D2Rec model.\
 •	testgenerator.py --- that generates the pseudo-unbiased test sets.\
 Baselines – consists of all the baselines as mentioned in the paper\
-CIRS folder - consists of two files.\n
-	* cirs_baseline.py --- contains the code for the Causal Inference For Recommender System baseline.
-	*poisson_factorization.py --- contains the code for creating the user and item latent variables which will be used in cirs_baseline.py.
-Graphrec folder - consists of two files.
-	* graphrec.py --- contains the code for the GraphRec baseline.
-	* pickle generator.py--- contains the code for creating the pickle dataset that is required for creating the pickle file which is needed to run graphrec.py.
-ips_mf.py --- contains the code to run Inverse Propensity Score Matrix Factorization baseline.
-ncf.py --- contains the code to run Neural Collaborative Filtering baseline.
-pmf_baseline.py --- contains the code to run Probablistic Matrix Factorization baseline.
-socialmf.py --- contains the code to run Social Matrix Factorization baseline.
+CIRS folder - consists of two files.\
+	* cirs_baseline.py --- contains the code for the Causal Inference For Recommender System baseline.\
+	*poisson_factorization.py --- contains the code for creating the user and item latent variables which will be used in cirs_baseline.py.\
+Graphrec folder - consists of two files.\
+	* graphrec.py --- contains the code for the GraphRec baseline.\
+	* pickle generator.py--- contains the code for creating the pickle dataset that is required for creating the pickle file which is needed to run graphrec.py.\
+ips_mf.py --- contains the code to run Inverse Propensity Score Matrix Factorization baseline.\
+ncf.py --- contains the code to run Neural Collaborative Filtering baseline.\
+pmf_baseline.py --- contains the code to run Probablistic Matrix Factorization baseline.\
+socialmf.py --- contains the code to run Social Matrix Factorization baseline.\
 
 
 
